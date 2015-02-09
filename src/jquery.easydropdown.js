@@ -8,7 +8,7 @@
 * Copyright 2013 Patrick Kunka, All Rights Reserved
 */
 
-
+//Test for Bower
 (function($){
 	
 	function EasyDropDown(){
