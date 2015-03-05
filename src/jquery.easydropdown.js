@@ -106,7 +106,7 @@
 
             // RH
 			// sizes width of dropdown based on widest item in flyout
-            $('.dropdown').each(function (i, val) {
+            /*$('.dropdown').each(function (i, val) {
                 // prevents any sizing on welcome screen dropdown
                 if ($(val).find('.welcome').length) return;
 
@@ -125,7 +125,7 @@
                 $(val).css({ position: 'relative' });
                 $(val).find('ul').css({ width: '100%' });
                 $(val).find('div').css({ position: 'absolute' });
-            });
+            });*/
 
         },
 
@@ -225,7 +225,7 @@
 
                     // RH
 					// flyout goes up or down depending on available space
-                    var $details = $('#details');
+                    /*var $details = $('#details');
                     var $flyout = self.$container.find('div');
                     var detailsOpenAmount = $(window).height() - $details.position().top - 56;
                     $flyout.hide();
@@ -248,7 +248,7 @@
 							}
 						}
 
-                    }, 0);
+                    }, 0);*/
 
 				},
 				'blur.easyDropDown': function(){
